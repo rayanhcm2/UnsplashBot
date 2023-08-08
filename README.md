@@ -17,7 +17,7 @@ Assurez-vous d'ajouter l'emplacement de l'exécutable ChromeDriver à la variabl
 1. Clonez ce dépôt sur votre machine locale.
 
 ```sh
-git clone https://github.com/rayanhcm2/scrape-unsplash-images-selenium 
+git clone https://github.com/rayanhcm2/UnsplashBot
 ```
 
 2. Accédez au répertoire du projet.
