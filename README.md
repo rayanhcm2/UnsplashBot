@@ -1,6 +1,7 @@
 # UnsplashBot
 
-UnsplashBot est un script Python qui automatise la recherche et le téléchargement d'images à partir du site web Unsplash en utilisant Selenium et Requests.
+UnsplashBot est un script Python qui automatise la recherche et le téléchargement d'images à partir du site web Unsplash
+en utilisant Selenium et Requests.
 
 ## Prérequis
 
@@ -17,12 +18,26 @@ Assurez-vous d'ajouter l'emplacement de l'exécutable ChromeDriver à la variabl
 
 ```sh
 git clone https://github.com/rayanhcm2/scrape-unsplash-images-selenium 
+```
+
+2. Accédez au répertoire du projet.
+
+```sh
 cd scrape-unsplash-images-selenium 
+```
+
+3. Installez les packages Python requis.
+
+```sh
 pip install -r requirements.txt
+```
+
+4. Exécutez le script.
+
+```sh
 python main.py
 ```
-1. Suivez les invitations pour entrer un terme de recherche d'images.
 
-2. Le script ouvrira un navigateur Chrome, effectuera une recherche d'images sur Unsplash, les téléchargera et les sauvegardera dans le répertoire actuel.
-
-3. Une fois le processus terminé, le navigateur se fermera automatiquement.
+Le script ouvrira un navigateur Chrome, effectuera une recherche d'images sur Unsplash, les téléchargera et les
+sauvegardera dans le répertoire actuel.
+Une fois le processus terminé, le navigateur se fermera automatiquement.
